@@ -1,0 +1,25 @@
+.header {
+    background-color: #EDF1FF;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  
+    .logo {
+      .texto-logo-1 {
+        color: #4D77FF;
+      }
+    }
+
+    .menu {
+      a{
+        font-family: "Inter";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+      }
+    
+    }
+
+}
