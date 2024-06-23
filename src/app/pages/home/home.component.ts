@@ -1,5 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
+import AOS from "aos";
 
 @Component({
   selector: 'app-home',
@@ -10,5 +11,9 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
+
+  ngOnInit():void {
+    AOS.init();
+  }
 
 }
