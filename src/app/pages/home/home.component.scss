@@ -1,0 +1,30 @@
+.Container-home {
+    margin-top: 10rem;
+    .containe-cabecalho {
+        
+        .card-title-1 {
+        color: #4D77FF;
+        font-family: "Inter";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        }
+        .card-title-2 {
+        font-family: "Inter";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        }
+    }
+
+    .container-img {
+        .img-ellipse {
+            position: relative;
+        }
+        .img-doctor {
+            position: relative;
+            top: -690px;
+            left: 36px;
+        }
+    }
+}
